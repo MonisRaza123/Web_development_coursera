@@ -1,0 +1,57 @@
+body
+{background-color: #0B0C10;
+ color: #66FCF1;
+ font-size:16px;
+ font-family: 'Dancing Script', cursive;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ #header-nav
+ {background-color: #1F2833;}
+.navbar-brand h1
+{color: #66FCF1;
+ font-size: 2em;
+ font-family: 'Tenali Ramakrishna', sans-serif;
+ text-shadow: 1px 1px 1px;
+ margin: 0;
+ line-height: .75;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ }
+ .navbar-brand a:hover, .navbar-brand a:focus {text-decoration: none;}
+
+@media (min-width: 767px)
+{
+	button{visibility: hidden;}
+	ul{visibility: hidden;}
+}
+ul{align-items: center;}
+
+#chicken
+{background-color: #1F2833;
+padding: 10px;
+margin:10px;}
+#beef
+{background-color: #1F2833;
+padding: 10px;
+margin: 10px;}
+#sushi
+{background-color: #1F2833;
+padding: 10px;
+margin: 10px;}
+p{color: #C5C6C7;}
+#menu a:hover, #menu a:focus 
+{text-decoration: none;
+ color: #66FCF1;	
+}
+button
+{border-color:#66FCF1;
+ background-color:#C5C6C7;
+ height: 30px;
+ width:25px; 
+ float:right;
+ margin:10px;}
+ .glyphicon {height:20px;
+ 	width:10px;
+ }

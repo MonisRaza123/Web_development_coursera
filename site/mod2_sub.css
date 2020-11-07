@@ -32,10 +32,12 @@ p.title{
 	border: 1px solid black;
 }
 #p1{ margin:0; 
+  color:white;
 	background-color: blue; }
 #p2{ margin: 0; 
 	background-color: pink; }
 #p3{margin:0; 
+  color: white;
 	background-color: maroon; }
 
 @media (min-width: 992px)
